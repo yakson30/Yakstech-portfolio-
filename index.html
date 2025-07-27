@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yakstech Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">Yakstech</a>
+    <nav class="navbar">
+      <a href="#home" style="--i:1" class="active">Home</a>
+      <a href="#skills" style="--i:2">Skills</a>
+      <a href="#about" style="--i:3">About</a>
+      <a href="#services" style="--i:4">Services</a>
+      <a href="#contact" style="--i:5">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, I'm</h3>
+      <h1>Yakubu Aduga Jibrin</h1>
+      <h3>And I'm a <span class="text"></span></h3>
+      <p>
+        A passionate Full Stack Developer and Optical Fiber Engineer with over 3 years of experience.
+        I'm currently undergoing training in Artificial Intelligence and 3D Animation with Team Spark. 
+        I also have a background in project and social media management, and I’m skilled in both frontend and backend development.
+      </p>
+      <div class="home-sci">
+        <a href="https://facebook.com" target="_blank"><i class='bx bxl-facebook'></i></a>
+        <a href="https://instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
+        <a href="https://wa.me/2349060379465" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+        <a href="https://tiktok.com" target="_blank"><i class='bx bxl-tiktok'></i></a>
+        <a href="http://linkedin.com/in/james-suleiman-511083371" target="_blank"><i class='bx bxl-linkedin'></i></a>
+      </div>
+      <a href="#about" class="btn-box">More About Me</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="https://media.istockphoto.com/id/1481183139/photo/focused-caucasian-man-coding-on-desktop-computer-in-stylish-office-space-male-software.webp" alt="Developer">
+    </div>
+    <div class="about-text">
+      <h3>About <span>Me</span></h3>
+      <h4>Full Stack Developer & AI Enthusiast</h4>
+      <p>
+        I’m Yakubu Aduga Jibrin, a full-stack web developer with strong experience in HTML, CSS, JavaScript, React.js, Python, and Django. 
+        I’m also an Optical Fiber Engineer with MTN and OKK. I’ve worked as a Project Manager and Social Media Manager at TeenzGlobal Foundation and have years of leadership, reporting, and technical experience.
+        Currently, I’m part of Team Spark learning Artificial Intelligence and 3D Animation.
+      </p>
+      <a href="#skills" class="btn-box">View Skills</a>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <h1 class="sub-title">My <span>Services</span></h1>
+      <div class="services-list">
+        <div>
+          <i class='bx bx-code'></i>
+          <h2>Web Development</h2>
+          <p>Frontend and backend web applications with responsive, modern UIs.</p>
+          <a href="#" class="row">Learn more</a>
+        </div>
+        <div>
+          <i class='bx bxl-apple'></i>
+          <h2>Mobile & App Dev</h2>
+          <p>Mobile-friendly apps using React Native and other modern technologies.</p>
+          <a href="#" class="row">Learn more</a>
+        </div>
+        <div>
+          <i class='bx bx-brain'></i>
+          <h2>AI & 3D Animation</h2>
+          <p>Currently learning AI and 3D Animation with Team Spark, implementing smart tech ideas.</p>
+          <a href="#" class="row">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="container">
+      <h1 class="sub-title">My <span>Skills</span></h1>
+      <div class="skills-list">
+        <div>
+          <i class='bx bx-code-block'></i>
+          <h2>Frontend</h2>
+          <p>HTML, CSS, JavaScript, React.js, Responsive Design, Bootstrap</p>
+        </div>
+        <div>
+          <i class='bx bx-server'></i>
+          <h2>Backend</h2>
+          <p>Python, Django, Node.js, Express, REST APIs, SQL, MongoDB</p>
+        </div>
+        <div>
+          <i class='bx bx-network-chart'></i>
+          <h2>Networking</h2>
+          <p>Optical Fiber Installation & Maintenance (MTN & OKK), Network Setup</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h1 class="sub-title">Contact <span>Me</span></h1>
+      <div class="contact-form">
+        <form>
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn-box">Send Message</button>
+        </form>
+        <p style="color: #0ef; margin-top: 20px;">
+          Email: <a href="mailto:adugayakubu@gmail.com" style="color: cyan;">adugayakubu@gmail.com</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
